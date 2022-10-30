@@ -1,38 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+
+body {
+  background-color: #F4F5F7;
+  font-family: Inter;
+}
+
 .App {
+  padding: 50px 5%;
+}
+
+.header {
+  position: relative;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.share {
+  position: absolute;
+  right: 20%;
+  top: -7%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.header__img {
+  width: 100px;
+  border-radius: 50%;
+  margin-top: 30px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.header__text {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  text-align: center;
+
+}
+
+.slack {
+  display: none;
+}
+
+.links {
+  display: block;
+  text-align: center;
+  background-color: #d7daddc5;
+  border-radius: 8px;
+  padding: 24px 32px 24px 32px;
+
+  font-family: Inter;
+  text-decoration: none;
+  color: inherit;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+}
+
+.list-logos {
+  margin-top: 40px;
+  margin-bottom: 60px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+}
+
+.list-logos * {
+  display: inline-block;
+}
+
+.footer {
+  padding-top: 40px;
+}
+
+.list-foot {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 48px 0;
+  border-top: 1px solid rgba(211, 211, 211, 0.605);
+}
+
+@media only screen and (max-width: 450px) {
+  .list-foot {
+    flex-direction: column;
+  }
+
+  .list-foot * {
+    margin-bottom: 10px;
+  }
+}
+
+.footer-text {
+  font-weight: 400;
+  line-height: 24px;
+  color: #667085;
+}
+
+.tooltip {
+  visibility: hidden;
+  text-align: center;
+  width: 70%;
+  background-color: rgba(0, 0, 0, 0.876);
   color: white;
+  padding: 20px;
+  border-radius: 10px;
+  position: absolute;
+  top: -45px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 20;
 }
 
-.App-link {
-  color: #61dafb;
+.links:hover + .tooltip {
+  visibility: visible;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.link-box {
+  margin-bottom: 12px;
+  position: relative;
 }
