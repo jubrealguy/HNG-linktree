@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/HNG-linktree/static/css/main.f1b47be5.css",
+    "main.js": "/HNG-linktree/static/js/main.94f330f2.js",
+    "static/media/slack-logo.jpg": "/HNG-linktree/static/media/slack-logo.fcad3e176cd81d2c2d55.jpg",
+    "static/media/Jubreel_Adebayo.jpeg": "/HNG-linktree/static/media/Jubreel_Adebayo.8acc5db52bba86deb063.jpeg",
+    "static/media/git-logo.jpg": "/HNG-linktree/static/media/git-logo.53afa45c46b30bb05afb.jpg",
+    "index.html": "/HNG-linktree/index.html",
+    "main.f1b47be5.css.map": "/HNG-linktree/static/css/main.f1b47be5.css.map",
+    "main.94f330f2.js.map": "/HNG-linktree/static/js/main.94f330f2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f1b47be5.css",
+    "static/js/main.94f330f2.js"
+  ]
+}
