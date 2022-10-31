@@ -4,7 +4,10 @@ import share from './img/share.png';
 const Header=()=> {
     return (
         <header className='header'>
-            <img id="profile_img" className="share" src={share} alt = "share btn" />
+            <div className="share_box">
+                <img id="profile_img" className="share" src={share} alt = "share btn" />
+                <p className="tooltipshare">share</p>
+            </div>
             <img id="profile_img" className="header__img" src={img} alt = "my pic" />
             <h1 className="header__text">Adebayo Jubreel</h1>
             <p id="slack" className='slack'>mrRealest</p>
