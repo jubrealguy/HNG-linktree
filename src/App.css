@@ -41,10 +41,29 @@ body {
   visibility: visible;
 }
 
+.profile {
+  position: relative;
+  text-align: center;
+}
+
 .header__img {
   width: 100px;
   border-radius: 50%;
   margin-top: 30px;
+}
+
+.header__img:hover {
+  filter: grayscale(50%);
+}
+
+.profile_img-hover {
+  width: 30px;
+  transform: translateX(-66px);
+  visibility: hidden;
+}
+
+.header__img:hover + .profile_img-hover {
+  visibility: visible;
 }
 
 .header__text {
@@ -72,6 +91,11 @@ body {
   font-size: 18px;
   font-weight: 500;
   line-height: 28px;
+}
+
+.link-box:hover {
+  background-color: #5c5959;
+  border-radius: 8px;
 }
 
 .list-logos {
