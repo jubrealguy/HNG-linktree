@@ -1,4 +1,4 @@
-import img1 from './img/slack-logo.jpg';
+import img1 from './img/slack-logo.png';
 import img2 from './img/git-logo.jpg';
 
 function MainContent() {
@@ -29,7 +29,7 @@ function MainContent() {
     
             <ul className="list-logos">
                 <li><img src={img1} alt="slack logo" width="45px"/></li>
-                <li><img src={img2} alt="github logo" width="50px" /></li>
+                <li><img src={img2} alt="github logo" width="60px" /></li>
             </ul>
         </main>
     )

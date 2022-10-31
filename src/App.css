@@ -84,6 +84,7 @@ body {
 
 .list-logos * {
   display: inline-block;
+  border-radius: 50%;
 }
 
 .footer {
