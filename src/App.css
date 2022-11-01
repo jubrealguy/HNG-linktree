@@ -11,17 +11,17 @@ body {
 
 .header {
   position: relative;
-  text-align: center;
 }
 
 .share_box {
   position: absolute;
-  right: 20%;
-  top: -7%;
+  display: block;
+  right: 15%;
+  
 }
 
 .share {
-  width: 35px;
+  width: 38px;
 }
 
 .tooltipshare {
@@ -42,14 +42,13 @@ body {
 }
 
 .profile {
-  position: relative;
   text-align: center;
 }
 
 .header__img {
   width: 100px;
   border-radius: 50%;
-  margin-top: 30px;
+  transform: translateX(12px);
 }
 
 .header__img:hover {
@@ -58,7 +57,7 @@ body {
 
 .profile_img-hover {
   width: 30px;
-  transform: translateX(-66px);
+  transform: translateX(-53px);
   visibility: hidden;
 }
 

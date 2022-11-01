@@ -1,5 +1,5 @@
-import img1 from './img/slack-logo.png';
-import img2 from './img/git-logo.jpg';
+import img1 from '../img/slack-logo.png';
+import img2 from '../img/git-logo.jpg';
 
 function MainContent() {
     return (

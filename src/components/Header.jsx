@@ -1,6 +1,6 @@
-import img from './img/Jubreel_Adebayo.jpeg';
-import share from './img/share.png';
-import imgHover from './img/imghover.png'
+import img from '../img/Jubreel_Adebayo.jpeg';
+import share from '../img/share.png';
+import imgHover from '../img/imghover.png'
 
 const Header=()=> {
     return (

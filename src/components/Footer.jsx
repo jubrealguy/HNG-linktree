@@ -1,5 +1,5 @@
-import img1 from './img/vector.png';
-import img3 from './img/I4G.png';
+import img1 from '../img/vector.png';
+import img3 from '../img/I4G.png';
 
 function Footer() {
     return (
