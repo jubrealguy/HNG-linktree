@@ -1,6 +1,8 @@
 import img1 from '../img/slack-logo.png';
 import img2 from '../img/git-logo.jpg';
 
+import { Link } from "react-router-dom";
+
 function MainContent() {
     return (
         <main>
@@ -25,6 +27,9 @@ function MainContent() {
             <div className='link-box' id="book__design">
                 <a href=" https://books.zuri.team/design-rules" className='links'>Design Books</a>
                 <p className="tooltip">Learn more on design rules with us</p>
+            </div>
+            <div className='link-box' id="contact">
+                <Link to="/contact" id="contact" className='links'>Contact Me</Link>
             </div>
     
             <ul className="list-logos">
