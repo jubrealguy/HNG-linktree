@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/HNG-linktree/static/css/main.71e0970f.css",
-    "main.js": "/HNG-linktree/static/js/main.a5a9dcef.js",
+    "main.css": "/HNG-linktree/static/css/main.dab38cab.css",
+    "main.js": "/HNG-linktree/static/js/main.67c187a0.js",
     "static/media/Jubreel_Adebayo.jpeg": "/HNG-linktree/static/media/Jubreel_Adebayo.8acc5db52bba86deb063.jpeg",
     "static/media/git-logo.jpg": "/HNG-linktree/static/media/git-logo.53afa45c46b30bb05afb.jpg",
     "static/media/slack-logo.png": "/HNG-linktree/static/media/slack-logo.57f394c134abd06f8ef4.png",
     "static/media/imghover.png": "/HNG-linktree/static/media/imghover.e0b7d8a617096465448c.png",
     "index.html": "/HNG-linktree/index.html",
-    "main.71e0970f.css.map": "/HNG-linktree/static/css/main.71e0970f.css.map",
-    "main.a5a9dcef.js.map": "/HNG-linktree/static/js/main.a5a9dcef.js.map"
+    "main.dab38cab.css.map": "/HNG-linktree/static/css/main.dab38cab.css.map",
+    "main.67c187a0.js.map": "/HNG-linktree/static/js/main.67c187a0.js.map"
   },
   "entrypoints": [
-    "static/css/main.71e0970f.css",
-    "static/js/main.a5a9dcef.js"
+    "static/css/main.dab38cab.css",
+    "static/js/main.67c187a0.js"
   ]
 }
