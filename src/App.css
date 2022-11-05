@@ -291,3 +291,39 @@ body {
 .error-msg {
   color: orangered;
 }
+
+.main {
+  position: relative;
+}
+
+.successMessage {
+  background-color: #ffffff;
+  width: 300px;
+  border-radius: 15px;
+  box-shadow: 4px 5px 10px rgba(0, 0, 0);
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding-bottom: 25px;
+}
+
+.successMessage--text {
+  font-size: 24px;
+  font-weight: 600;
+  color: rgba(0, 128, 0, 0.77);
+}
+
+.successMessage--subtext {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.successMessage--btn {
+  font-size: 20px;
+  padding: 10px;
+  width: 50%;
+  border-radius: 10px;
+  background-color: rgba(0, 128, 0, 0.77);
+}

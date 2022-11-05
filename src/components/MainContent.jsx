@@ -30,6 +30,7 @@ function MainContent() {
             </div>
             <div className='link-box' id="contact">
                 <Link to="/contact" id="contact" className='links'>Contact Me</Link>
+                <p className="tooltip">Click to contact us directly</p>
             </div>
     
             <ul className="list-logos">

@@ -31,7 +31,7 @@ function Contact() {
 
 
     return (
-        <main>
+        <main className="main">
             <section className='contact'>
                 <h2 className='contact--heading'>Contact Me</h2>
                 <p className='contact--text'>Hi there, contact me to ask me about anything you have in mind</p>
@@ -39,13 +39,13 @@ function Contact() {
                     <div className="form--name bottom">
                         <div className="form--name-first">
                             <label for="name" className="form--label">First Name</label>
-                            <input type="text" className="form--input-name form--input" id="first_name" placeholder="Enter your first name" minlength = "3" required onChange={(e) => {
+                            <input type="text" className="form--input-name form--input" id="first_name" placeholder="Enter your first name" required onChange={(e) => {
                             setUserName(e.target.value);}} />
                             {error && <div className="error-msg">Please enter your First Name</div>}
                         </div>
                         <div className="form--name-last">
                             <label for="name" className="form--label">Last Name</label>
-                            <input type="text" className="form--input-name form--input" id="last_name" placeholder="Enter your last name" minlength = "3" required onChange={(e) => {
+                            <input type="text" className="form--input-name form--input" id="last_name" placeholder="Enter your last name" required onChange={(e) => {
                             setLastName(e.target.value);}} />
                             {error && <div className="error-msg">Please enter your Last Name</div>}
                         </div>
@@ -67,11 +67,11 @@ function Contact() {
 
                     <div className="form--check bottom">
                         <input type="checkbox" className="check" checked={checkBox}
-                    onChange={checkHandler} />
-                        <span for="name" className="check-text">You agree to providing data to who may contact you</span>
+                    onChange={checkHandler} required />
+                        <span for="name" className="check-text" htmlFor="checkbok">You agree to providing data to who may contact you</span>
                     </div>
                     
-                    <button type="submit" className="form--submit" id="submit__btn" onClick={handleSubmit}>Send message</button>
+                    <button type="submit" className="form--submit" id="submit__btn"  onClick={handleSubmit}>Send message</button>
                 </form>
             </section>
             <div className="empty"></div>
