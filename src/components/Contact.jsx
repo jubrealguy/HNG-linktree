@@ -15,7 +15,7 @@ function Contact() {
     var pattern =/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/
     const handleSubmit = async (e) => {
         e.preventDefault();
-        if(userName === "" || LastName === "" || message === "" || checkBox === false || email === "" || email !== email.match(pattern)){
+        if(userName === "" || LastName === "" || message === "" || checkBox === false || email === "" || email != email.match(pattern)){
             seterror(true)
             console.log(error)
         }else{
@@ -74,15 +74,15 @@ function Contact() {
                     <button type="submit" className="form--submit" id="submit__btn" onClick={handleSubmit}>Send message</button>
                 </form>
             </section>
-        <div className="empty"></div>
-        <Footer />
-        {successMsg ? <div className="successMessage">
-            <h4 className="successMessage--text">
-            Thank You!
-            </h4>
-            <p className="successMessage--subtext">Message delivered successfully.</p>
-            <button className="successMessage--btn" onClick={HandleSuccessMsg}>ok</button>
-        </div> : ""}
+            <div className="empty"></div>
+            <Footer />
+            {successMsg ? <div className="successMessage">
+                <h4 className="successMessage--text">
+                Thank You!
+                </h4>
+                <p className="successMessage--subtext">Message delivered successfully.</p>
+                <button className="successMessage--btn" onClick={HandleSuccessMsg}>ok</button>
+            </div> : ""}
         </main>
     )
 }
