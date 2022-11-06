@@ -71,7 +71,7 @@ function Contact() {
                         <span for="name" className="check-text" htmlFor="checkbok">You agree to providing data to who may contact you</span>
                     </div>
                     
-                    <button type="submit" className="form--submit" id="submit__btn"  onClick={handleSubmit}>Send message</button>
+                    <button type="submit" className="form--submit" id="btn__submit"  onClick={handleSubmit}>Send message</button>
                 </form>
             </section>
             <div className="empty"></div>
